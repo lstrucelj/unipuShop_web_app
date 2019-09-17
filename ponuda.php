@@ -116,10 +116,7 @@
                     ?>
                </div><!-- row Finish -->
             <div class="row">
-                <?php
-                   //prikazProKategorije();
-                    //prikazProFakulteti();
-                ?>
+                
             </div>
            </div><!-- col-md-9 Finish -->
        </div><!-- container Finish -->
