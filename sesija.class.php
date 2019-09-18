@@ -3,8 +3,6 @@
 class Sesija {
 
     const KORISNIK = "korisnik";
-    const TIP = "tip";
-    const GRESKE = "greske";
     const SESSION_NAME = "prijava_sesija";
 
     static function kreirajSesiju() {
@@ -15,17 +13,12 @@ class Sesija {
         }
     }
 
+
     static function kreirajKorisnika($korisnik) {
         self::kreirajSesiju();
         $_SESSION[self::KORISNIK] = $korisnik;
     }
 
-    static function infoNeka($korisnik, $tip, $greske) {
-        self::kreirajSesiju();
-        $_SESSION[self::KORISNIK] = $korisnik;
-        $_SESSION[self::TIP] = $tip;
-        $_SESSION[self::GRESKE] = $greske;
-    }
 
     static function dajKorisnika() {
         self::kreirajSesiju();
@@ -36,6 +29,7 @@ class Sesija {
         }
         return $korisnik;
     }
+
 
     static function obrisiSesiju() {
         session_name(self::SESSION_NAME);

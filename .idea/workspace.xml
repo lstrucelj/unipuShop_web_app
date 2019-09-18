@@ -4,7 +4,7 @@
     <list default="true" id="e199519a-27f3-4424-b61f-fdc9ca598b8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ponuda.php" beforeDir="false" afterPath="$PROJECT_DIR$/ponuda.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skripta.php" beforeDir="false" afterPath="$PROJECT_DIR$/skripta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sesija.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/sesija.class.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +62,8 @@
       <workItem from="1568238267263" duration="51042000" />
       <workItem from="1568421230070" duration="67422000" />
       <workItem from="1568677187084" duration="604000" />
-      <workItem from="1568679910801" duration="373000" />
+      <workItem from="1568679910801" duration="651000" />
+      <workItem from="1568815411959" duration="2628000" />
     </task>
     <servers />
   </component>
