@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e199519a-27f3-4424-b61f-fdc9ca598b8c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/details.php" beforeDir="false" afterPath="$PROJECT_DIR$/details.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dodajProizvod.php" beforeDir="false" afterPath="$PROJECT_DIR$/dodajProizvod.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/košarica.php" beforeDir="false" afterPath="$PROJECT_DIR$/košarica.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ponuda.php" beforeDir="false" afterPath="$PROJECT_DIR$/ponuda.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prijava.php" beforeDir="false" afterPath="$PROJECT_DIR$/prijava.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registracija.php" beforeDir="false" afterPath="$PROJECT_DIR$/registracija.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/sidebar.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +61,7 @@
       <workItem from="1568421230070" duration="67422000" />
       <workItem from="1568677187084" duration="604000" />
       <workItem from="1568679910801" duration="651000" />
-      <workItem from="1568815411959" duration="4324000" />
+      <workItem from="1568815411959" duration="4570000" />
     </task>
     <servers />
   </component>
