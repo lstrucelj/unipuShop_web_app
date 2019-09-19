@@ -101,7 +101,11 @@ if(isset($_POST['dodaj'])){
                        </li>
 
                        <li>
-                          <a href="dodajProizvod.php">Dodaj proizvod</a>
+                          <?php
+                          if($tip == 1){
+                              echo "<a href=\"dodajProizvod.php\">Dodaj proizvod</a>";
+                          }
+                         ?>
                        </li>
                    </ul><!-- nav navbar-nav left Finish -->
                </div><!-- padding-nav Finish -->

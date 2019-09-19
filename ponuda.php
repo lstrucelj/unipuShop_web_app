@@ -1,4 +1,13 @@
-<?php include("db.php");?>
+<?php
+include("db.php");
+include("sesija.class.php");
+Sesija::kreirajSesiju();
+
+
+    $tip = Sesija::dajKorisnika()["id_tip"];
+
+
+?>
 
 <!DOCTYPE html>
 <html lang="hr">
@@ -48,7 +57,11 @@
                        </li>
 
                        <li>
-                          <a href="dodajProizvod.php">Dodaj proizvod</a>
+                          <?php
+                          if($tip == 1){
+                              echo "<a href=\"dodajProizvod.php\">Dodaj proizvod</a>";
+                          }
+                         ?>
                       </li>
                    </ul><!-- nav navbar-nav left Finish -->
                </div><!-- padding-nav Finish -->
